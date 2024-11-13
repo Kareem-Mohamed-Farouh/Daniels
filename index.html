@@ -17,8 +17,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!--------------------Aos css --------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--------------------media quary --------------->
     <link rel="stylesheet" href="css/query-style.css">
+
 
     <!--------------------Bootstrap if You Want Local --------------->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -101,13 +104,15 @@
                         <div class="row ">
                             <div class="col-md-12">
                                 <div class="row p-lg-4">
-                                    <div class="  col-md-5 ps-lg-3 mb-4 ">
+                                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="  col-md-5 ps-lg-3 mb-4 ">
                                         <div class=" position-relative  mb-4 ">
                                             <div class="img-hero ps-4 "> <img src="image/hero.jpg " class="img-fluid"
                                                     alt="hero" title="hero"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-7 pe-lg-5  ">
+                                    <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                        class="col-md-7 pe-lg-5  ">
                                         <div class="about-ifo mb-4 px-0">
                                             <p class="h3 ab fw-bold mb-0">About Me.</p>
                                             <span class="sub-title   d-inline-block mb-3">UI / UX DESInger & WEB
@@ -160,14 +165,14 @@
         <!-- ---------==================--END About Me-=============------------- -->
         <!-- ---------=================--Start Services--============------------ -->
         <section class="services bg-seco section-padding " id="services">
-            <div class="container-md overflow-hidden">
+            <div data-aos="fade-down" class="container-md overflow-hidden">
                 <div class="section-head text-center">
                     <h3>Services.</h3>
                 </div>
                 <div class="row  px-lg-5">
                     <div class="col-md-12">
-                        <div class="row px-lg-4">
-                            <div class="col-md-4  ">
+                        <div data-aos="fade-up" data-aos-offset="300" class="row px-lg-4">
+                            <div data-aos="flip-right" class="col-md-4  ">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -182,7 +187,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div data-aos="flip-up" class="col-md-4">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -197,7 +202,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div data-aos="flip-left" class="col-md-4">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -212,7 +217,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4  ">
+                            <div data-aos="flip-left" class="col-md-4  ">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -227,7 +232,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div data-aos="flip-down" class="col-md-4">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -242,7 +247,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div data-aos="flip-right" class="col-md-4">
                                 <div class="services-item text-center py-5 bg-white rounded-2">
                                     <div class="services-ico py-2 mb-2  ">
                                         <span class="  bg-seco d-inline-block  p-3 rounded-circle"><i
@@ -263,7 +268,7 @@
             </div>
         </section>
         <!-- -------===================---End Services-================------------- -->
-        <!-- --------==================---Start Portfoli--===============------------ -->
+        <!-- --------==================---Start Portfolio--===============------------ -->
         <section id="work" class="portfolio section-padding">
             <div class="container">
                 <div class="row">
@@ -271,7 +276,8 @@
                         <div class="section-head mb-5 text-center">
                             <h3>Portfolio.</h3>
                         </div>
-                        <ul class="nav nav-pills mb-1  d-flex justify-content-center" id="pills-tab" role="tablist">
+                        <ul data-aos="zoom-out" class="nav nav-pills mb-1  d-flex justify-content-center" id="pills-tab"
+                            role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-home"
@@ -293,13 +299,15 @@
                                     aria-controls="pills-contact" aria-selected="false">Graphic</button>
                             </li>
                         </ul>
-                        <div class="tab-content" id="pills-tabContent">
+                        <div data-aos="fade-up" data-aos-offset="300" class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-all" role="tabpanel"
                                 aria-labelledby="pills-all-tab" tabindex="0">
                                 <div class="row gy-2 px-lg-5">
                                     <div class="col-md-12">
                                         <div class="row gy-3 p-lg-4">
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/1.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -317,7 +325,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-down" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/2.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -335,7 +345,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-up" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/3.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -353,7 +365,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-right" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/4.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -371,7 +385,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-left" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/5.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -389,7 +405,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-6 p-lg-3">
+                                            <div data-aos="fade-right" data-aos-anchor="#example-anchor"
+                                                data-aos-offset="500" data-aos-duration="500"
+                                                class="col-md-4 col-sm-6 p-lg-3">
                                                 <div class="p-card overflow-hidden  position-relative">
                                                     <img src="image/portfolio/6.jpg" class="img-fluid w-100 " alt="">
                                                     <div
@@ -645,16 +663,16 @@
         <!-- -----------===============start clints================-------------- -->
         <section class="clients section-padding  bg-seco" id="clients">
             <div class="container">
-                <div class="section-head text-center">
+                <div data-aos="zoom-in-down" id="carouselExampleCaptions" class="section-head text-center">
                     <h3>Testimonials.</h3>
                 </div>
                 <div class="col-md-12">
                     <div class="row px-lg-4">
-                        <div id="carouselExampleCaptions" class="carousel slide">
+                        <div dclass="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active ">
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div data-aos="zoom-in-up" class="col-md-12">
                                             <div class="about-client text-center ">
                                                 <img src="image/1_New1.jpg" class=" img-fluid rounded-circle"
                                                     alt="1_New1">
@@ -675,7 +693,8 @@
                                             <div class="about-client text-center ">
                                                 <img src="image/blog-2.jpg" class=" img-fluid rounded-circle"
                                                     alt="1_New1">
-                                                <p class="w-75 mx-auto coco "> Lorem Ipsum has been the industry's standard dummy
+                                                <p class="w-75 mx-auto coco "> Lorem Ipsum has been the industry's
+                                                    standard dummy
                                                     text
                                                     ever
                                                     since the when an unknown printer took a galley of type and
@@ -692,7 +711,8 @@
                                             <div class="about-client text-center ">
                                                 <img src="image/1_New1.jpg" class=" img-fluid rounded-circle"
                                                     alt="1_New1">
-                                                <p class="w-75 mx-auto coco"> Lorem Ipsum has been the industry's standard dummy
+                                                <p class="w-75 mx-auto coco"> Lorem Ipsum has been the industry's
+                                                    standard dummy
                                                     text
                                                     ever
                                                     since the when an unknown printer took a galley of type and
@@ -775,14 +795,15 @@
             <div class="container-md">
                 <div class="row">
                     <div class="col-md-12 mb-0">
-                        <div class="section-head text-center ">
+                        <div data-aos="zoom-in-down" class="section-head text-center ">
                             <h3>Our Team.</h3>
                         </div>
                         <div class="container-md pt-5">
                             <div class="row gy-4 px-lg-5">
                                 <div class="col-md-12">
                                     <div class="row gy-3 px-lg-4">
-                                        <div class="col-md-4  ">
+                                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                            class="col-md-4  ">
                                             <div class="team-card text-center rounded-bottom-2 overflow-hidden">
                                                 <div class="team-memb position-relative overflow-hidden ">
                                                     <img src="image/1.jpg" class="img-fluid w-100" alt="person">
@@ -800,7 +821,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4  ">
+                                        <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                            class="col-md-4  ">
                                             <div class="team-card text-center rounded-bottom-2 overflow-hidden">
                                                 <div class="team-memb position-relative overflow-hidden ">
                                                     <img src="image/2.jpg" class="img-fluid w-100" alt="person">
@@ -818,7 +840,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4  ">
+                                        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                                            class="col-md-4  ">
                                             <div class="team-card text-center rounded-bottom-2 overflow-hidden">
                                                 <div class="team-memb position-relative overflow-hidden ">
                                                     <img src="image/1.jpg" class="img-fluid w-100" alt="person">
@@ -916,7 +939,8 @@
     <!-- --------=============---End MAIN--===================------------ -->
     <!-- -----------==========---START-Footer--================-------------- -->
     <footer class="d-flex flex-column align-items-center py-3    ">
-        <p class="mt-2">Copy Right 2018 © By <span class="text-white fw-bold fs-6">Kareem Frouh</span> All Rights Reserved </p>
+        <p class="mt-2">Copy Right 2018 © By <span class="text-white fw-bold fs-6">Kareem Frouh</span> All Rights
+            Reserved </p>
         <div class="scroll-top  p-3  rounded-circle  bg-black   d-flex align-items-center justify-content-center">
             <a href="#home"> <i class=" text-white fa-solid fa-arrow-up"></i></a>
         </div>
@@ -932,6 +956,11 @@
             backSpeed: 100,
             loop: true
         })
+    </script>
+    <!--------------------aos-js-------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
     <!--------------------bootstrap --script----if-- Local--------------->
     <script src="js/bootstrap.bundle.min.js"></script>
