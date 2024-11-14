@@ -74,13 +74,13 @@
     </nav>
     <!-------------============ end navBar-===============---------------->
     <!--------------===========-- Start Home ---===============------------>
-    <header id="home" class="home d-flex flex-column align-item-center justify-content-center">
+    <header id="home" class="overflow-hidden home d-flex flex-column align-item-center justify-content-center">
 
         <div
             class=" container heder-caption text-center  d-flex flex-column align-item-center justify-content-center  ">
             <h5 class=" caption   fw-bolder">Hello</h5>
             <h4 class=" cd-headline clip txt-animation ">I Am <span class="fw-normal fs  auto-type"></span> </h4>
-            <div class="home-ico my-4">
+            <div class=" home-ico  my-4">
                 <a href="" class="text-white text-decoration-none"><span><i
                             class="fa-brands fa-facebook-f"></i></span></a>
                 <a href="" class="text-white  text-decoration-none"><span><i
@@ -97,7 +97,7 @@
     <!-- --------=============---Start Main--===================------------ -->
     <main>
         <!-- ----------===========-Start About Me--==============------------ -->
-        <section id="about" class="about py-3    ">
+        <section  id="about" class=" overflow-hidden about py-3    ">
             <div class="container ">
                 <div class="row gy-3 p-lg-5">
                     <div class="container  ">
@@ -164,7 +164,7 @@
         </section>
         <!-- ---------==================--END About Me-=============------------- -->
         <!-- ---------=================--Start Services--============------------ -->
-        <section class="services bg-seco section-padding " id="services">
+        <section class="overflow-hidden services bg-seco section-padding " id="services">
             <div data-aos="fade-down" class="container-md overflow-hidden">
                 <div class="section-head text-center">
                     <h3>Services.</h3>
@@ -269,7 +269,7 @@
         </section>
         <!-- -------===================---End Services-================------------- -->
         <!-- --------==================---Start Portfolio--===============------------ -->
-        <section id="work" class="portfolio section-padding">
+        <section  id="work" class="overflow-hidden portfolio section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -661,18 +661,18 @@
         </section>
         <!-- ----------================-End portfolio-==============------------- -->
         <!-- -----------===============start clints================-------------- -->
-        <section class="clients section-padding  bg-seco" id="clients">
+        <section class="overflow-hidden clients section-padding  bg-seco" id="clients">
             <div class="container">
-                <div data-aos="zoom-in-down" id="carouselExampleCaptions" class="section-head text-center">
+                <div data-aos="zoom-in-down" class="section-head text-center">
                     <h3>Testimonials.</h3>
                 </div>
                 <div class="col-md-12">
                     <div class="row px-lg-4">
-                        <div dclass="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active ">
+                        <div id="carouselExampleCaptions"  class="carousel slide">
+                            <div data-aos="zoom-in-up" class="carousel-inner">
+                                <div  class="carousel-item active ">
                                     <div class="row">
-                                        <div data-aos="zoom-in-up" class="col-md-12">
+                                        <div  class="col-md-12">
                                             <div class="about-client text-center ">
                                                 <img src="image/1_New1.jpg" class=" img-fluid rounded-circle"
                                                     alt="1_New1">
@@ -687,7 +687,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div   class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="about-client text-center ">
@@ -705,11 +705,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                <div  class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="about-client text-center ">
-                                                <img src="image/1_New1.jpg" class=" img-fluid rounded-circle"
+                                                <img src="image/blog-1.jpg" class=" img-fluid rounded-circle"
                                                     alt="1_New1">
                                                 <p class="w-75 mx-auto coco"> Lorem Ipsum has been the industry's
                                                     standard dummy
@@ -739,7 +739,7 @@
         </section>
         <!-- ---------===============--end clints--==================------------ -->
         <!-- -------==============----start counter---==========-========---------- -->
-        <section class="counter  section-padding ">
+        <section class=" counter  section-padding ">
             <div class="container">
                 <div class="row text-center px-lg-4 ">
                     <div class="col-md-12">
@@ -750,7 +750,7 @@
                                             class="fs-3 fa-solid fa-users"></i></span>
                                     <div class="counter-num">
                                         <span class="numm h2 mb-3 d-inline-block">850</span>
-                                        <p class="about-num lh-base  foco mb-4">Happy Customers</p>
+                                        <p class="about-num lh-base   mb-4">Happy Customers</p>
                                     </div>
                                 </div>
                             </div>
@@ -760,7 +760,7 @@
                                             class="fs-3 fa-solid fa-thumbs-up"></i></span>
                                     <div class="counter-num">
                                         <span class="numm h2 mb-3 d-inline-block">230</span>
-                                        <p class="about-num lh-base  foco mb-4">Complete Projects</p>
+                                        <p class="about-num lh-base   mb-4">Complete Projects</p>
                                     </div>
                                 </div>
                             </div>
@@ -770,7 +770,7 @@
                                             class="fs-3 fa-solid fa-bullhorn"></i></span>
                                     <div class="counter-num">
                                         <span class="numm h2 mb-3 d-inline-block">9450</span>
-                                        <p class="about-num lh-base  foco mb-4">Lines Of Code</p>
+                                        <p class="about-num lh-base   mb-4">Lines Of Code</p>
                                     </div>
                                 </div>
                             </div>
@@ -780,7 +780,7 @@
                                             class="fs-3 fa-solid fa-download"></i></span>
                                     <div class="counter-num">
                                         <span class="numm h2  d-inline-block">780</span>
-                                        <p class="about-num lh-base  foco mb-4">Files Downloaded</p>
+                                        <p class="about-num lh-base   mb-4">Files Downloaded</p>
                                     </div>
                                 </div>
                             </div>
@@ -791,7 +791,7 @@
         </section>
         <!-- --------=============---end acounter--===================------------ -->
         <!-- --------=============---start team--===================------------ -->
-        <section id="team" class="team  bg-seco section-padding">
+        <section id="team" class="overflow-hidden team  bg-seco section-padding">
             <div class="container-md">
                 <div class="row">
                     <div class="col-md-12 mb-0">
@@ -939,7 +939,7 @@
     <!-- --------=============---End MAIN--===================------------ -->
     <!-- -----------==========---START-Footer--================-------------- -->
     <footer class="d-flex flex-column align-items-center py-3    ">
-        <p class="mt-2">Copy Right 2018 © By <span class="text-white fw-bold fs-6">Kareem Frouh</span> All Rights
+        <p class="mt-2">Copy Right 2018 © By <span class="text-white fw-medium fs-6">Kareem Frouh</span> All Rights
             Reserved </p>
         <div class="scroll-top  p-3  rounded-circle  bg-black   d-flex align-items-center justify-content-center">
             <a href="#home"> <i class=" text-white fa-solid fa-arrow-up"></i></a>
@@ -948,7 +948,7 @@
     <!-- ----------============----END-Footer----=================------------ -->
 
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed(".auto-type", {
             strings: ["Designer", "Larry Daniels", "Developer"],
@@ -956,7 +956,7 @@
             backSpeed: 100,
             loop: true
         })
-    </script>
+    </script> -->
     <!--------------------aos-js-------------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

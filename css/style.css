@@ -90,18 +90,16 @@ body {
     width: 80% !important;
 }
 /* ===============ALTERNATIVE  ANIMATIONT IN HOME======= */
-/* .navbar-expand-lg .navbar-nav li .active:after {
-    width: 15% !important;
-}
-.navbar-expand-lg .navbar-nav a::after {
-    left: 43% !important;} */
-/* .txt-animation {
+
+.txt-animation {
+   
     height: 1px;
 }
 
 
 .txt-animation::after {
     content: "";
+    font-weight: bolder;
     animation: txt-animation 9s infinite;
 
 }
@@ -386,7 +384,7 @@ body {
     100% {
         content: "";
     }
-} */
+}
 /* -------------------------- start-homeee-----------------------  */
 #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../image/bg.jpg);
@@ -397,6 +395,10 @@ body {
     min-height: 100vh;
     color: #fff;
 }
+.home .home-ico{
+    height: 50px;
+    padding-top: 30px;
+}
 .home .home-ico span {
     display: inline-block;
     font-size: 14px;
@@ -404,8 +406,17 @@ body {
     height: 35px;
     line-height: 35px;
     border-radius: 50%;
+    margin-left: 5px;
     background: rgba(0, 0, 0, 0.3);
 }
+.home .home-ico span:hover{
+    width: 40px;
+        height: 40px;
+        font-size: 17px;
+        background: rgba(245, 246, 247, 0.837);
+        color: #062ea7;
+}
+
 .caption {
     font-size: 3rem;
 }
@@ -671,6 +682,16 @@ span {
 }
 /*----------------end clints------------------ */
 /*----------------start counter------------------ */
+
+.counter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.3)), url(../image/buti.gif);
+        background-position: 0px 0px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: #fdfafa !important;
+}
 .counter .numm {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
@@ -694,7 +715,7 @@ span {
     transform: rotateY(180deg) scale(0.3);
     transition: all 0.5s;
 }
-.team-card:hover .social {
+.team-memb:hover .social {
     transform: rotateY(0deg) scale(1);
     opacity: 1;
 }
@@ -761,7 +782,13 @@ span {
     bottom: 15px;
 }
 footer {
-    background-color: rgb(28, 28, 28)
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7) ),url(../image/9b1770751072c4a49be4f11f86c38ea6.jpg);
+        background-position: 0px 0px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
 }
 footer p {
     font-size: small;
