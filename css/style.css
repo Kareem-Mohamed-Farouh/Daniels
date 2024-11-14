@@ -91,15 +91,16 @@ body {
 }
 /* ===============ALTERNATIVE  ANIMATIONT IN HOME======= */
 
-.txt-animation {
+/* .txt-animation {
    
-    height: 1px;
+    height: 70px;
 }
 
 
 .txt-animation::after {
     content: "";
     font-weight: bolder;
+
     animation: txt-animation 9s infinite;
 
 }
@@ -384,7 +385,7 @@ body {
     100% {
         content: "";
     }
-}
+} */
 /* -------------------------- start-homeee-----------------------  */
 #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../image/bg.jpg);
@@ -397,7 +398,9 @@ body {
 }
 .home .home-ico{
     height: 50px;
-    padding-top: 30px;
+    padding-top: 30px
+    ;
+    
 }
 .home .home-ico span {
     display: inline-block;
@@ -423,6 +426,9 @@ body {
 .cd-headline {
     font-size: 3rem;
     font-weight: 100;
+    height: 30px;
+   
+    
 }
 .heder-caption h4 {
     margin-bottom: 20px;
