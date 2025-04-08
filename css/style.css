@@ -454,7 +454,7 @@ body {
 }
 .progress {
   background: #f7f7f7;
-  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0px 2px 7px rgba(81, 71, 71, 0.15) inset;
 }
 .skills h6 {
   font-size: 13px;
@@ -465,12 +465,15 @@ body {
 }
 .skills .one div {
   width: 95%;
+  background-color: #666464;
 }
 .skills .two div {
   width: 80%;
+  background-color: #666464;
 }
 .skills .three div {
   width: 90%;
+  background-color: #666464;
 }
 .skills .progress {
   height: 23px;
